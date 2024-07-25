@@ -1,4 +1,4 @@
-# SmartSheets-Universal-Adapter
+# ua-smartsheet
 
 ConnectALL SmartSheets Adapter is developed as an extension to the Universal Adapter capability of ConnectALL. The adapter specifications will let the user sync a rows in a SmartSheet sheete to another endpoint using the ConnectALL Integration Hub. A common use is that an ITSM application (like JIRA) will be used to manage the sprint that consist of the features created in the smart sheet. As the feature is worked on any changes to status, priority, etc. can be synched back to the smart sheet.
 
