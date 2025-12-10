@@ -41,7 +41,7 @@ Utilize a spreadsheet in Smartsheets to track new feature requests, which can th
 
 # Known Limitations
 
-Field values/ids are unique to the sheet that the adapter that is configured in the automation. If you are planning to sync multiple sheets, you'll need to ensure you're mapping the correct fields for each automation.
+Field values/ids are unique to the sheet that the adapter that is configured in the automation. If you are planning to sync multiple sheets, you'll need to ensure you're mapping the correct fields for each automation. It is recommended to utilize the "User Fields" functionality within ConnectALL to have a base generic adapter (the one in this repo) that has just the needed fields for a successful initial sync, with the user adding fields as needed, per use case via the User Fields function which is accessed via the admin menu.
 
 The concept of "Templates" are available in Smartsheets and may be worth considering creating. This would allow you to create an automation per template, so you can configure or add additional fields as needed for each template you may have users interacting with.
 
@@ -52,3 +52,4 @@ Not a limitation, but something to note: Pagination is not used within a single 
 # Supporting Documentation
 
 Third Party API Documentation: [Link to API Documentation](https://developers.smartsheet.com/)
+
