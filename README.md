@@ -35,7 +35,7 @@ This Universal Adapter currently supports the following entities:
 
 Flow Filters are enabled in this adapter. You will need to first configure the filter using the Smartsheets UI, on the sheet that you are using in your automation. Once you have created that filter, you will then need to retreive the filter ID using the Smartsheets API with the following API call: https://api.smartsheet.com/2.0/sheets/{your_sheet_id}/filters
 
-Once you have the filter ID, you will then put it into this format, and place this into the Flow Filter section of your automation: filterId={your_filter_id}&exclude=filteredOutRows
+Once you have the filter ID, you will then put it into this format, and place this into the Flow Filter section of your automation: &filterId={your_filter_id}&exclude=filteredOutRows
 
 _Note: In both example calls you will need to remove the curly braces._
 
@@ -56,5 +56,6 @@ Not a limitation, but something to note: Pagination is not used within a single 
 # Supporting Documentation
 
 Third Party API Documentation: [Link to API Documentation](https://developers.smartsheet.com/)
+
 
 
