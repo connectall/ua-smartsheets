@@ -37,7 +37,7 @@ Flow Filters are enabled in this adapter. You will need to first configure the f
 
 Once you have the filter ID, you will then put it into this format, and place this into the Flow Filter section of your automation: &filterId={your_filter_id}&exclude=filteredOutRows
 
-_Note: In both example calls you will need to remove the curly braces._
+_Note: Remove the curly braces from both examples._
 
 ## Example Automation
 
@@ -56,6 +56,7 @@ Not a limitation, but something to note: Pagination is not used within a single 
 # Supporting Documentation
 
 Third Party API Documentation: [Link to API Documentation](https://developers.smartsheet.com/)
+
 
 
 
